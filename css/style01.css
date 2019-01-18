@@ -1,40 +1,35 @@
 .container{
-	background-color: lightgrey;
 	float: left;
-	width: 100%
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* header banner styling */
 .container .header {
+	background-color: #651313;
 	float: left;
 	width: 100%;
 }
 
 .container .header .logo {
-	background-color: green;
 	float: left;
-	width: 60%;
-	margin-top: 22px;
-}
-.container .header .headline {
-	background-color: lightblue;
-	float: right;
-	width: 40%;
+	width: 55%;
+	margin-top: 30px;
+	padding-left: 20px;
 
 }
-.headline #linkCF{
-	background-color: lightgreen;
-	clear: left;
+	
+.container .header .headline {
+	background-color: #651313;
 	float: right;
-	width: 35%;
-	text-decoration: none;
+	width: 40%;
 }
+
 
 /* header banner styling end */
 
 /* nav styling start */
 .container .nav{
-	background-color: coral;
 	clear: right;
 	float: left;
 	width: 100%;
@@ -42,72 +37,134 @@
 	margin-top: 10px;
 }
 
+.nav ul {
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+  overflow: hidden;
+  background-color: black;
+  padding: 5px 5px 5px 5px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+ color: white;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: darkgrey;
+	color: black;
+}
+
 /* nav styling end */
 
-
+/* date line start */
 .container .date {
-	background-color: pink;
+	background-color: white;
 	float: left;
 	width: 100%;
+	margin-bottom: 10px;
 }
+
+.dateT{
+	float: left;
+	width: 98%;
+	text-align: right;
+}
+/* date line end */
 
 /* Top news headline style */
 
 
 .mainFirst {
-	background-color: lightcoral;
-	float: left;
-	width: 98%;
-}
-
-.mainFirst .sec1 .news {
-	background-color: yellow;
 	float: left;
 	width: 100%;
+}
+
+.block1 .news {
+	background-color: #F7F3F3;
+	float: left;
+	padding-left: 5px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 24px;
 }
 
 
 /* First Img. Block alignment */
 
 .block1{
-	background-color: lightseagreen;
-	width: 98%;
+	background-color: red;
+	width: 100%;
 	float: left;
- /* first side bar alignement */
 }
+
 .side1 {
+	/* clear: left; */
 	background-color: purple;
-	width: 10%;
+	width: 5%;
+	float: left;
+}
+#banner {
 	float: right;
 }
 /* imgs float left to side bar */
 .imgBlock1 {
+	/* border:  1px solid black; */
+	clear: right;
 	background-color: cyan;
-	width: 80%;
+	margin-top: 20px;
+	width: 100%;
 	float: left;
-}
-/* flexbox for first row of pictures */
-
+} 
+/* flexbox for first row of pictures
+ */
 .flexbox1{
+	width: 90%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 }
 
+.fig {
+	margin-top: -25px;
+	padding-left: 5px;
+	background-color: black;
+	color: white;
+}
+
+.fig2 {
+	
+	margin-top:  -10px;
+	background-color: black;
+	color: white;
+}
 /* start second block */
 
 .mainSecond{
-	background-color: lightyellow;
+	background-color: green;
 	float: left;
-	width: 80%;
+	width: 100%;
 }
 
 .popular {
-	background-color: yellow;
+	background-color: #F7F3F3;
 	width: 100%;
+	float: left;
+	/* padding-left: 5px; */
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .imgBlock2{
-	background-color: cyan;
+	background-color: coral;
 	width: 100%;
 	float: left;
 }
@@ -115,7 +172,8 @@
 .flexbox2{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 }
 
 /* Middle banner */
@@ -126,9 +184,8 @@
 
 }
 .bannerMiddle {
-	width: 50%;
+	width: 100%;
 	padding: 10px;
-	margin-left: 525px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -137,12 +194,12 @@
 .Block2 {
 	background-color: pink;
 	float: left;
-	width: 98%;
+	width: 100%;
 }
 .mainThird {
-	background-color: lightyellow;
+	background-color: lightgreen;
 	float: left;
-	width: 90%;
+	width: 100%;	
 }
 
 .imgBlock3 {
@@ -160,11 +217,10 @@
 .mainFourth {
 	background-color: lightyellow;
 	float: left;
-	width: 90%;
+	width: 100%;
 }
 
 .imgBlock4 {
-
 	background-color: cyan;
 	width: 100%;
 	float: left;
@@ -180,6 +236,22 @@
 	background-color: purple;
 	width: 10%;
 	float: right;
+}
+
+/* footer styling beginn */
+ .footer {
+	border: 1px solid black;
+	float: left;
+	width: 100%;
+}
+
+.footerText {
+	text-align: center;
+}
+
+.logoFooter {
+	float: right;
+	margin-bottom: 25px;
 }
 
 
