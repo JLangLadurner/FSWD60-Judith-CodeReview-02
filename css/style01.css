@@ -1,4 +1,5 @@
 .container{
+	background-color: lightblue;
 	float: left;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -79,11 +80,17 @@
 
 /* Top news headline style */
 
-
-.mainFirst {
+.block1{
+	margin-top: 10px;
+	background-color: red;
+	width: 90%;
 	float: left;
-	width: 100%;
 }
+/* .mainFirst {
+	background-color: darkgrey;
+	float: left;
+	width: 80%;
+} */
 
 .block1 .news {
 	background-color: #F7F3F3;
@@ -98,35 +105,29 @@ h1 {
 }
 
 
-/* First Img. Block alignment */
-
-.block1{
-	background-color: red;
-	width: 100%;
-	float: left;
-}
 
 .side1 {
-	/* clear: left; */
+	clear: left;
 	background-color: purple;
-	width: 5%;
-	float: left;
+	width: 20%;
+	float: right;
 }
 #banner {
 	float: right;
 }
 /* imgs float left to side bar */
 .imgBlock1 {
-	/* border:  1px solid black; */
+	border:  1px solid black;
 	clear: right;
 	background-color: cyan;
 	margin-top: 20px;
-	width: 100%;
+	width: 80%;
 	float: left;
 } 
 /* flexbox for first row of pictures
  */
 .flexbox1{
+	background-color: yellow;
 	width: 90%;
 	display: flex;
 	flex-direction: row;
@@ -149,15 +150,21 @@ h1 {
 }
 /* start second block */
 
+.block2 {
+	background-color: coral;
+	width: 90%;
+	float: left;
+}
+
 .mainSecond{
 	background-color: green;
 	float: left;
-	width: 100%;
+	width: 80%;
 }
 
 .popular {
 	background-color: #F7F3F3;
-	width: 100%;
+	width: 80%;
 	float: left;
 	/* padding-left: 5px; */
 	margin-bottom: 10px;
@@ -165,11 +172,12 @@ h1 {
 }
 .imgBlock2{
 	background-color: coral;
-	width: 100%;
+	width: 80%;
 	float: left;
 }
 
 .flexbox2{
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -191,7 +199,7 @@ h1 {
 	text-align: center;
 }
 
-.Block2 {
+.Block3 {
 	background-color: pink;
 	float: left;
 	width: 100%;
