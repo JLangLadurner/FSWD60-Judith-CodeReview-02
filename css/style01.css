@@ -1,0 +1,198 @@
+.container{
+	background-color: lightgrey;
+	float: left;
+	width: 100%
+}
+
+/* header banner styling */
+.container .header {
+	float: left;
+	width: 100%;
+}
+
+.container .header .logo {
+	background-color: green;
+	float: left;
+	width: 60%;
+	margin-top: 22px;
+}
+.container .header .headline {
+	background-color: lightblue;
+	float: right;
+	width: 40%;
+
+}
+.headline #linkCF{
+	background-color: lightgreen;
+	clear: left;
+	float: right;
+	width: 35%;
+	text-decoration: none;
+}
+
+/* header banner styling end */
+
+/* nav styling start */
+.container .nav{
+	background-color: coral;
+	clear: right;
+	float: left;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	margin-top: 10px;
+}
+
+/* nav styling end */
+
+
+.container .date {
+	background-color: pink;
+	float: left;
+	width: 100%;
+}
+
+/* Top news headline style */
+
+
+.mainFirst {
+	background-color: lightcoral;
+	float: left;
+	width: 98%;
+}
+
+.mainFirst .sec1 .news {
+	background-color: yellow;
+	float: left;
+	width: 100%;
+}
+
+
+/* First Img. Block alignment */
+
+.block1{
+	background-color: lightseagreen;
+	width: 98%;
+	float: left;
+ /* first side bar alignement */
+}
+.side1 {
+	background-color: purple;
+	width: 10%;
+	float: right;
+}
+/* imgs float left to side bar */
+.imgBlock1 {
+	background-color: cyan;
+	width: 80%;
+	float: left;
+}
+/* flexbox for first row of pictures */
+
+.flexbox1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/* start second block */
+
+.mainSecond{
+	background-color: lightyellow;
+	float: left;
+	width: 80%;
+}
+
+.popular {
+	background-color: yellow;
+	width: 100%;
+}
+.imgBlock2{
+	background-color: cyan;
+	width: 100%;
+	float: left;
+}
+
+.flexbox2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/* Middle banner */
+
+.bannerMiddle {
+	float: left;
+	width: 100%;
+
+}
+.bannerMiddle {
+	width: 50%;
+	padding: 10px;
+	margin-left: 525px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.Block2 {
+	background-color: pink;
+	float: left;
+	width: 98%;
+}
+.mainThird {
+	background-color: lightyellow;
+	float: left;
+	width: 90%;
+}
+
+.imgBlock3 {
+	background-color: cyan;
+	width: 100%;
+	float: left;
+}
+
+.flexbox3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.mainFourth {
+	background-color: lightyellow;
+	float: left;
+	width: 90%;
+}
+
+.imgBlock4 {
+
+	background-color: cyan;
+	width: 100%;
+	float: left;
+}
+
+.flexbox4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.side2 {
+	background-color: purple;
+	width: 10%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
