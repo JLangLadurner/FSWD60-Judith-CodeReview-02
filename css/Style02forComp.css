@@ -1,0 +1,254 @@
+.container {
+  /* background-color: lightblue; */
+  float: left;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
+/* header banner styling */
+.container .header {
+  background-color: #651313;
+  float: left;
+  width: 100%; }
+
+.container .header .logo {
+  float: left;
+  width: 55%;
+  margin-top: 30px;
+  padding-left: 20px; }
+
+.container .header .headline {
+  background-color: #651313;
+  float: right;
+  width: 40%; }
+
+/* header banner styling end */
+/* nav styling start */
+.container .nav {
+  clear: right;
+  float: left;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin-top: 10px; }
+
+.nav ul {
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+  overflow: hidden;
+  background-color: black;
+  padding: 5px 5px 5px 5px; }
+
+.nav li {
+  display: inline; }
+
+.nav li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.nav li a:hover {
+  background-color: darkgrey;
+  color: black; }
+
+/* nav styling end */
+/* date line start */
+.container .date {
+  background-color: white;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.dateT {
+  float: left;
+  width: 98%;
+  text-align: right; }
+
+/* date line end */
+/* Top news headline style */
+.headernews {
+  background-color: #CBC9C9;
+  float: left;
+  padding-left: 5px;
+  width: 92%;
+  margin-bottom: 10px;
+  font-size: 24px; }
+
+/* h1 {
+	font-size: 24px;
+} */
+.articleFirst {
+  /* background-color: purple; */
+  float: left;
+  width: 100%; }
+
+.firstSection {
+  /* background-color: green; */
+  float: left;
+  width: 80%; }
+
+.secondSection {
+  /* 	background-color: green; */
+  float: left;
+  width: 80%; }
+
+.side1 {
+  width: 15%;
+  float: right;
+  height: auto;
+  /* background-color: darkgrey; */ }
+
+/* pictures in first article */
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 5px; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/* flexbox 5th try - still not working */
+
+/* .row1 {
+  display: flex;
+}
+
+.column {
+  flex-direction: row;
+  justify-content: space-evenly;
+} */
+
+  /* flexbox try - end */
+
+.imgAll {
+  max-width: 100%;
+  height: auto; }
+
+
+
+/* changed JPG to PNG */
+
+/* .imgJPG {
+  width: 450px;
+  height: 302px;
+  } */
+
+figure {
+  display: inline-block;
+  margin: 5px; }
+
+figure img {
+  vertical-align: top; }
+
+.fig {
+  font-size: 20px;
+  text-align: left;
+  background-color: black;
+  color: white; }
+
+/* start second block */
+.popular {
+  background-color: #CBC9C9;
+  width: 92%;
+  float: left;
+  /* padding-left: 5px; */
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.bannerMiddle {
+  /* background-color: coral; */
+  float: left;
+  width: 100%;
+  text-align: left;
+  margin-left: 400px; }
+
+.articleSecond {
+  float: left;
+  width: 100%; }
+
+.thirdSection {
+  /* 	background-color: yellow; */
+  float: left;
+  width: 80%; }
+
+.column2 {
+  float: left;
+  width: 47%; }
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.imgAll1 {
+  width: 500px;
+  height: 400px; }
+
+.side2 {
+  /* background-color: lightgrey; */
+  width: 15%;
+  float: right;
+  height: auto; }
+
+.imgSide {
+  width: 150px;
+  height: 900px; }
+
+/* footer styling beginn */
+.footer {
+  background-color: black;
+  border: 1px solid black;
+  float: left;
+  width: 100%; }
+
+.container .navB {
+  clear: right;
+  float: left;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin-top: 10px; }
+
+.navB ul {
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+  overflow: hidden;
+  background-color: black;
+  padding: 5px 5px 5px 5px; }
+
+.navB li {
+  display: inline; }
+
+.navB li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.navB li a:hover {
+  background-color: darkgrey;
+  color: black; }
+
+.footerText {
+  background-color: black;
+  text-align: center;
+  color: white; }
+
+.logoFooter {
+  float: right;
+  margin-bottom: 25px; }
+
+  /* adds media */
+
+   @media screen and (max-width: 480px) {
+  .articleFirst .articleSecond{
+    width: 100%
+  }
+  .footer {
+    float: left;
+  }
+
+  .bannerMiddle {
+   text-align: center;
+  }
+}
+
+/*# sourceMappingURL=Style02forComp.css.map */
