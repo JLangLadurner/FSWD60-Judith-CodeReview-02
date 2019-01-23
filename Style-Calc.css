@@ -1,0 +1,21 @@
+.Container {
+	background-color: lightgrey;
+	width: 100%;
+	float: left;
+}
+
+.calculator {
+	width: 50%;
+	background-color: #97A4E6;
+	float: left;
+}
+
+#display {
+	width: 95%;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.row {
+
+}
