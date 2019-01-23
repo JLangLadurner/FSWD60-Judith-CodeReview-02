@@ -1,0 +1,77 @@
+.container {
+/* 	background-color: lightgrey; */
+	width: 50%;
+	float: left;
+	margin-left: 100px;
+}
+
+.calculator {
+	width: 100%;
+/* 	background-color: #97A4E6; */
+	float: left;
+}
+
+#display {
+	width: 300px;
+	height: 100px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+#firstRow{
+display: flex;
+flex: 100%;
+/* background-color: lightblue; */
+color: black;
+}
+
+
+#SecondRow{
+
+display: flex;
+}
+
+#thirdRow{
+
+display: flex;
+
+}
+#fourthRow{
+
+display: flex;
+
+}
+
+#fifthRow{
+display: flex;
+
+}
+
+#sixRow{
+display: flex;
+
+}
+
+
+
+button {
+	width: 60px;
+	height: 60px;
+	border:  1px solid darkgrey;
+}
+
+.darkgreyB {
+	background-color: darkgrey;
+	border: 1px solid black;
+}
+
+.orangeB {
+	background-color: orange;
+	border: 1px solid darkgrey;
+}
+
+.lightgreyB {
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+}
